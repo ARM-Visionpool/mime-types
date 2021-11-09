@@ -13,7 +13,7 @@
  */
 
 var db = require('mime-db')
-var extname = require('path').extname
+//var extname = require('path').extname
 
 /**
  * Module variables.
@@ -135,9 +135,9 @@ function lookup (path) {
   }
 
   // get the extension ("ext" or ".ext" or full path)
-  var extension = extname('x.' + path)
+  var extension = path.slice((path.lastIndexOf(".") - 1 >>> 0) + 2)
     .toLowerCase()
-    .substr(1)
+    //.substr(1)
 
   if (!extension) {
     return false
