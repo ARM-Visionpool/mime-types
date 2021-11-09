@@ -21,9 +21,12 @@ Otherwise, the API is compatible with `mime` 1.x.
 
 ## Install
 
-This is a [Node.js](https://nodejs.org/en/) module available through the
-[npm registry](https://www.npmjs.com/). Installation is done using the
+
+This is a forked version of [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/). Original installation path was done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+This project will be provided as a store for a zipped version.
 
 ```sh
 $ npm install mime-types
